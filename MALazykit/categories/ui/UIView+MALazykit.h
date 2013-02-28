@@ -10,6 +10,16 @@
 
 @interface UIView (MALazykit)
 
+/**
+ Creates a new view with it's `frame` set as `CGRectZero`.
+ */
 + (instancetype)view;
+
+/**
+ Creates a new view with a given `frame`.
+ 
+ @param frame A CGRect frame for the view.
+ */
++ (instancetype)viewWithFrame:(CGRect)frame;
 
 @end

@@ -19,4 +19,10 @@
     STAssertEquals(CGRectZero, [UIView view].frame, @"Should have CGRectZero as view frame");
 }
 
+- (void)testShouldAllowToCreateANewViewGivenAFrame {
+    CGRect frame = CGRectMake(12.f, 55.f, 20.f, 43.f);
+    CGRect viewsFrame = [UIView viewWithFrame:CGRectMake(12.f, 55.f, 20.f, 43.f)].frame;
+    STAssertEquals(frame, viewsFrame , @"Should have created a new view with a given frame");
+}
+
 @end
