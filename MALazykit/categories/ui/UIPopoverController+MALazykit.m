@@ -11,7 +11,7 @@
 @implementation UIPopoverController (MALazykit)
 
 + (instancetype)popoverControllerWithContentViewController:(UIViewController *)contentViewController {
-    return [[UIPopoverController alloc] initWithContentViewController:contentViewController];
+    return [[self alloc] initWithContentViewController:contentViewController];
 }
 
 @end

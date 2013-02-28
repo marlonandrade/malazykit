@@ -11,11 +11,11 @@
 @implementation UILabel (MALazykit)
 
 + (instancetype)label {
-    return [UILabel labelWithFrame:CGRectZero];
+    return [self labelWithFrame:CGRectZero];
 }
 
 + (instancetype)labelWithFrame:(CGRect)frame {
-    return [[UILabel alloc] initWithFrame:frame];
+    return [[self alloc] initWithFrame:frame];
 }
 
 @end

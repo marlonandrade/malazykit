@@ -12,8 +12,8 @@
 
 + (instancetype)cellWithStyle:(UITableViewCellStyle)cellStyle
               reuseIdentifier:(NSString *)reuseIdentifier {
-    return [[UITableViewCell alloc] initWithStyle:cellStyle
-                                  reuseIdentifier:reuseIdentifier];
+    return [[self alloc] initWithStyle:cellStyle
+                       reuseIdentifier:reuseIdentifier];
 }
 
 @end

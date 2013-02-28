@@ -13,33 +13,33 @@
 + (instancetype)barButtonItemWithBarButtonSystemItem:(UIBarButtonSystemItem)systemItem
                                               target:(id)target
                                               action:(SEL)action {
-    return [[UIBarButtonItem alloc] initWithBarButtonSystemItem:systemItem
-                                                         target:target
-                                                         action:action];
+    return [[self alloc] initWithBarButtonSystemItem:systemItem
+                                              target:target
+                                              action:action];
 }
 
 + (instancetype)barButtonItemWithCustomView:(UIView *)customView {
-    return [[UIBarButtonItem alloc] initWithCustomView:customView];
+    return [[self alloc] initWithCustomView:customView];
 }
 
 + (instancetype)barButtonItemWithImage:(UIImage *)image
                                  style:(UIBarButtonItemStyle)style
                                 target:(id)target
                                 action:(SEL)action {
-    return [[UIBarButtonItem alloc] initWithImage:image
-                                            style:style
-                                           target:target
-                                           action:action];
+    return [[self alloc] initWithImage:image
+                                 style:style
+                                target:target
+                                action:action];
 }
 
 + (instancetype)barButtonItemWithTitle:(NSString *)title
                                  style:(UIBarButtonItemStyle)style
                                 target:(id)target
                                 action:(SEL)action {
-    return [[UIBarButtonItem alloc] initWithTitle:title
-                                            style:style
-                                           target:target
-                                           action:action];
+    return [[self alloc] initWithTitle:title
+                                 style:style
+                                target:target
+                                action:action];
 }
 
 + (instancetype)barButtonItemWithImage:(UIImage *)image
@@ -47,11 +47,11 @@
                                  style:(UIBarButtonItemStyle)style
                                 target:(id)target
                                 action:(SEL)action {
-    return [[UIBarButtonItem alloc] initWithImage:image
-                              landscapeImagePhone:landscapeImagePhone
-                                            style:style
-                                           target:target
-                                           action:action];
+    return [[self alloc] initWithImage:image
+                   landscapeImagePhone:landscapeImagePhone
+                                 style:style
+                                target:target
+                                action:action];
 }
 
 @end

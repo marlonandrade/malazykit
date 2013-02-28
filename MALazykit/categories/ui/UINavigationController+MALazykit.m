@@ -11,7 +11,7 @@
 @implementation UINavigationController (MALazykit)
 
 + (instancetype)navigationControllerWithRootViewController:(UIViewController *)rootViewController {
-    return [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    return [[self alloc] initWithRootViewController:rootViewController];
 }
 
 @end

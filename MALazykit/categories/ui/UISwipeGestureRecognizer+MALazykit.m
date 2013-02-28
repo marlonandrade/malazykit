@@ -12,14 +12,14 @@
 
 + (instancetype)swipeGestureRecognizerWithTarget:(id)target
                                           action:(SEL)action {
-    return [[UISwipeGestureRecognizer alloc] initWithTarget:target action:action];
+    return [[self alloc] initWithTarget:target action:action];
 }
 
 + (instancetype)swipeGestureRecognizerWithTarget:(id)target
                                           action:(SEL)action
                                        direction:(UISwipeGestureRecognizerDirection)direction {
-    UISwipeGestureRecognizer *swipeGestureRecognizer = [UISwipeGestureRecognizer swipeGestureRecognizerWithTarget:target
-                                                                                                           action:action];
+    UISwipeGestureRecognizer *swipeGestureRecognizer = [self swipeGestureRecognizerWithTarget:target
+                                                                                       action:action];
     swipeGestureRecognizer.direction = direction;
     return swipeGestureRecognizer;
 }

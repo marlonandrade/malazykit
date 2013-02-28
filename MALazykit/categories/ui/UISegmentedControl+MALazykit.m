@@ -11,7 +11,7 @@
 @implementation UISegmentedControl (MALazykit)
 
 + (instancetype)segmentedControlWithItems:(NSArray *)items {
-    return [[UISegmentedControl alloc] initWithItems:items];
+    return [[self alloc] initWithItems:items];
 }
 
 @end

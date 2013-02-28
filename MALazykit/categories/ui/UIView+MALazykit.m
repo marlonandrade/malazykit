@@ -11,11 +11,11 @@
 @implementation UIView (MALazykit)
 
 + (instancetype)view {
-    return [UIView viewWithFrame:CGRectZero];
+    return [self viewWithFrame:CGRectZero];
 }
 
 + (instancetype)viewWithFrame:(CGRect)frame {
-    return [[UIView alloc] initWithFrame:frame];
+    return [[self alloc] initWithFrame:frame];
 }
 
 @end

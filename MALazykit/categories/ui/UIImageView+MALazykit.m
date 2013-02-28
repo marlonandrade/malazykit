@@ -11,11 +11,11 @@
 @implementation UIImageView (MALazykit)
 
 + (instancetype)imageViewWithImage:(UIImage *)image {
-    return [[UIImageView alloc] initWithImage:image];
+    return [[self alloc] initWithImage:image];
 }
 
 + (instancetype)imageViewWithImageNamed:(NSString *)imageName {
-    return [UIImageView imageViewWithImage:[UIImage imageNamed:imageName]];
+    return [self imageViewWithImage:[UIImage imageNamed:imageName]];
 }
 
 @end
