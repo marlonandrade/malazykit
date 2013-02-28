@@ -1,4 +1,4 @@
-MAToolkit
+MALazykit
 =========
 
 Collection of extensions for easier object instantiation.
@@ -11,12 +11,12 @@ So it's main purpose is to make your ARC code less verbose.
 Import the main header file on your header prefix (.pch)
 
 ``` objective-c
-#import "MAToolkit.h"
+#import "MALazykit.h"
 ```
 
 ## Credits
 
-MAToolkit was created by [Marlon Andrade](https://github.com/marlonandrade/).
+MALazykit was created by [Marlon Andrade](https://github.com/marlonandrade/).
 
 ## Contact
 
@@ -24,4 +24,4 @@ Follow [@emiemia](https://twitter.com/emiemia) on Twitter.
 
 ## Licence
 
-MAToolkit is available under MIT licence. See the LICENCE file for more info.
+MALazykit is available under MIT licence. See the LICENCE file for more info.
