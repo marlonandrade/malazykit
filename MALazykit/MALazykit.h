@@ -7,4 +7,11 @@
 //
 
 #import "UIBarButtonItem+MALazykit.h"
+#import "UIImageView+MALazykit.h"
+#import "UILabel+MALazykit.h"
+#import "UINavigationController+MALazykit.h"
+#import "UIPopoverController+MALazykit.h"
+#import "UISegmentedControl+MALazykit.h"
+#import "UISwipeGestureRecognizer+MALazykit.h"
+#import "UITableViewCell+MALazykit.h"
 #import "UIView+MALazykit.h"
