@@ -10,9 +10,23 @@ So it's main purpose is to make your ARC code less verbose.
 
 Import the main header file on your header prefix (.pch)
 
-``` objective-c
+```objective-c
 #import "MALazykit.h"
 ```
+
+## FAQ
+
++ **Why not use introspection and the dynamic behavior of Objective-C to prove it?**  
+Because I want to double check the state and behavior of every newly created instance.
+
++ **Isn't it too much laziness?**  
+Well, it really is!  
+But I also think it improves code readability.  
+Reading `[MyObject objectWithAnotherObject:[MyAnotherObject anotherObject]]` is a lot better than reading `[[MyObject alloc] initWithAnotherObject:[[MyAnotherObject alloc] init]]`.
+
++ **How about namespaces conflicts?**  
+At first I'll treat this lazyness as a central lazyness repository, so I won't create any namespace on methods created in here.  
+If Apple starts to provide some of these lazy methods on next versions of the framework, then we could drop our methods, or generate namespaces on the fly.
 
 ## Credits
 
