@@ -34,7 +34,7 @@ MALazykit was created by [Marlon Andrade](https://github.com/marlonandrade/).
 
 ## Contact
 
-Follow [@emiemia](https://twitter.com/emiemia) on Twitter.
+Follow [@emiemia](https://twitter.com/emiemia) on Twitter or mail me at [marlon@marlonandrade.com](mailto:marlon@marlonandrade.com).
 
 ## Licence
 
