@@ -1,5 +1,5 @@
 //
-//  UIView+MALazykit.h
+//  UILabel+MALazykit.h
 //  MALazykit
 //
 //  Created by Marlon Andrade on 02/28/2013.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (MALazykit)
+@interface UILabel (MALazykit)
 
-+ (instancetype)view;
-+ (instancetype)viewWithFrame:(CGRect)frame;
++ (instancetype)label;
++ (instancetype)labelWithFrame:(CGRect)frame;
 
 @end

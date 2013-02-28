@@ -1,5 +1,5 @@
 //
-//  UIView+MALazykit.h
+//  UISegmentedControl+MALazykit.h
 //  MALazykit
 //
 //  Created by Marlon Andrade on 02/28/2013.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (MALazykit)
+@interface UISegmentedControl (MALazykit)
 
-+ (instancetype)view;
-+ (instancetype)viewWithFrame:(CGRect)frame;
++ (instancetype)segmentedControlWithItems:(NSArray *)items;
 
 @end

@@ -1,15 +1,15 @@
 //
-//  MALazykitUIViewAdditionsTests.m
+//  UIViewLazinessTests.m
 //  MALazykit
 //
 //  Created by Marlon Andrade on 02/28/2013.
 //  Copyright (c) 2013 Marlon Andrade. All rights reserved.
 //
 
-#import "MALazykitUIViewAdditionsTests.h"
+#import "UIViewLazinessTests.h"
 #import "MALazykit.h"
 
-@implementation MALazykitUIViewAdditionsTests
+@implementation UIViewLazinessTests
 
 - (void)testShouldEasilyCreateANewView {
     STAssertNotNil([UIView view], @"Should not be nil");

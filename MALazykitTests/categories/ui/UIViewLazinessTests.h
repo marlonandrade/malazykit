@@ -1,5 +1,5 @@
 //
-//  MALazykitUIViewAdditionsTests.h
+//  UIViewLazinessTests.h
 //  MALazykit
 //
 //  Created by Marlon Andrade on 02/28/2013.
@@ -8,6 +8,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface MALazykitUIViewAdditionsTests : SenTestCase
+@interface UIViewLazinessTests : SenTestCase
 
 @end
