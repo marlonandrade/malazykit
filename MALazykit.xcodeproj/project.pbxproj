@@ -13,9 +13,6 @@
 		BFEAE19B16DF71CD00530197 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEAE19A16DF71CD00530197 /* SenTestingKit.framework */; };
 		BFEAE19C16DF71CD00530197 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEAE17C16DF71CD00530197 /* UIKit.framework */; };
 		BFEAE19D16DF71CD00530197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEAE17E16DF71CD00530197 /* Foundation.framework */; };
-		BFEAE1A516DF71CD00530197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFEAE1A316DF71CD00530197 /* InfoPlist.strings */; };
-		BFEAE1B816DF727000530197 /* MAToolkitUIViewAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAE1B716DF727000530197 /* MAToolkitUIViewAdditionsTests.m */; };
-		BFEAE1BB16DF72B500530197 /* UIView+MAToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAE1BA16DF72B500530197 /* UIView+MAToolkit.m */; };
 		BFEAE1BC16DF739B00530197 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEAE18016DF71CD00530197 /* CoreGraphics.framework */; };
 		BFEAE1C416DF99B300530197 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEAE1BE16DF99B300530197 /* Default-568h@2x.png */; };
 		BFEAE1C516DF99B300530197 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEAE1BF16DF99B300530197 /* Default.png */; };
@@ -23,6 +20,10 @@
 		BFEAE1C716DF99B300530197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFEAE1C116DF99B300530197 /* InfoPlist.strings */; };
 		BFEAE1CE16DF99BC00530197 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAE1CB16DF99BC00530197 /* MAAppDelegate.m */; };
 		BFEAE1CF16DF99BC00530197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAE1CC16DF99BC00530197 /* main.m */; };
+		BFFE70CF16DFA28800ADD1D9 /* UIView+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE70C516DFA28800ADD1D9 /* UIView+MALazykit.m */; };
+		BFFE70D116DFA28800ADD1D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFFE70CC16DFA28800ADD1D9 /* InfoPlist.strings */; };
+		BFFE70D216DFA28800ADD1D9 /* MALazykitTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFE70CE16DFA28800ADD1D9 /* MALazykitTests-Info.plist */; };
+		BFFE70D316DFA34700ADD1D9 /* MALazykitUIViewAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE70CB16DFA28800ADD1D9 /* MALazykitUIViewAdditionsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,28 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BFEAE17916DF71CD00530197 /* MAToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEAE17916DF71CD00530197 /* MALazykit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MALazykit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEAE17C16DF71CD00530197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFEAE17E16DF71CD00530197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFEAE18016DF71CD00530197 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BFEAE19916DF71CD00530197 /* MAToolkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAToolkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEAE19916DF71CD00530197 /* MALazykitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MALazykitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEAE19A16DF71CD00530197 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BFEAE1A216DF71CD00530197 /* MAToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAToolkitTests-Info.plist"; sourceTree = "<group>"; };
-		BFEAE1A416DF71CD00530197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFEAE1B516DF723900530197 /* MAToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAToolkit.h; sourceTree = "<group>"; };
-		BFEAE1B616DF727000530197 /* MAToolkitUIViewAdditionsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAToolkitUIViewAdditionsTests.h; sourceTree = "<group>"; };
-		BFEAE1B716DF727000530197 /* MAToolkitUIViewAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAToolkitUIViewAdditionsTests.m; sourceTree = "<group>"; };
-		BFEAE1B916DF72B500530197 /* UIView+MAToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MAToolkit.h"; sourceTree = "<group>"; };
-		BFEAE1BA16DF72B500530197 /* UIView+MAToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MAToolkit.m"; sourceTree = "<group>"; };
 		BFEAE1BE16DF99B300530197 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BFEAE1BF16DF99B300530197 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BFEAE1C016DF99B300530197 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BFEAE1C216DF99B300530197 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BFEAE1C316DF99B300530197 /* MAToolkit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MAToolkit-Info.plist"; sourceTree = "<group>"; };
+		BFEAE1C316DF99B300530197 /* MALazykit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MALazykit-Info.plist"; sourceTree = "<group>"; };
 		BFEAE1CA16DF99BC00530197 /* MAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
 		BFEAE1CB16DF99BC00530197 /* MAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
 		BFEAE1CC16DF99BC00530197 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFEAE1CD16DF99BC00530197 /* MAToolkit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MAToolkit-Prefix.pch"; sourceTree = "<group>"; };
+		BFEAE1CD16DF99BC00530197 /* MALazykit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MALazykit-Prefix.pch"; sourceTree = "<group>"; };
+		BFFE70C416DFA28800ADD1D9 /* UIView+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MALazykit.h"; sourceTree = "<group>"; };
+		BFFE70C516DFA28800ADD1D9 /* UIView+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MALazykit.m"; sourceTree = "<group>"; };
+		BFFE70C616DFA28800ADD1D9 /* MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALazykit.h; sourceTree = "<group>"; };
+		BFFE70CA16DFA28800ADD1D9 /* MALazykitUIViewAdditionsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALazykitUIViewAdditionsTests.h; sourceTree = "<group>"; };
+		BFFE70CB16DFA28800ADD1D9 /* MALazykitUIViewAdditionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALazykitUIViewAdditionsTests.m; sourceTree = "<group>"; };
+		BFFE70CD16DFA28800ADD1D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFFE70CE16DFA28800ADD1D9 /* MALazykitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MALazykitTests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +89,8 @@
 		BFEAE17016DF71CD00530197 = {
 			isa = PBXGroup;
 			children = (
-				BFEAE18216DF71CD00530197 /* MAToolkit */,
-				BFEAE1A016DF71CD00530197 /* MAToolkitTests */,
+				BFFE70C116DFA28800ADD1D9 /* MALazykit */,
+				BFFE70C716DFA28800ADD1D9 /* MALazykitTests */,
 				BFEAE1C916DF99BC00530197 /* Other Sources */,
 				BFEAE1BD16DF99B300530197 /* Resources */,
 				BFEAE17B16DF71CD00530197 /* Frameworks */,
@@ -100,8 +101,8 @@
 		BFEAE17A16DF71CD00530197 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFEAE17916DF71CD00530197 /* MAToolkit.app */,
-				BFEAE19916DF71CD00530197 /* MAToolkitTests.octest */,
+				BFEAE17916DF71CD00530197 /* MALazykit.app */,
+				BFEAE19916DF71CD00530197 /* MALazykitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,71 +118,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BFEAE18216DF71CD00530197 /* MAToolkit */ = {
-			isa = PBXGroup;
-			children = (
-				BFEAE1B516DF723900530197 /* MAToolkit.h */,
-				BFEAE1B116DF721D00530197 /* Categories */,
-			);
-			path = MAToolkit;
-			sourceTree = "<group>";
-		};
-		BFEAE1A016DF71CD00530197 /* MAToolkitTests */ = {
-			isa = PBXGroup;
-			children = (
-				BFEAE1B316DF722300530197 /* Categories */,
-				BFEAE1A116DF71CD00530197 /* Supporting Files */,
-			);
-			path = MAToolkitTests;
-			sourceTree = "<group>";
-		};
-		BFEAE1A116DF71CD00530197 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BFEAE1A216DF71CD00530197 /* MAToolkitTests-Info.plist */,
-				BFEAE1A316DF71CD00530197 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BFEAE1B116DF721D00530197 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				BFEAE1B216DF721D00530197 /* UI */,
-			);
-			name = Categories;
-			path = categories;
-			sourceTree = "<group>";
-		};
-		BFEAE1B216DF721D00530197 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				BFEAE1B916DF72B500530197 /* UIView+MAToolkit.h */,
-				BFEAE1BA16DF72B500530197 /* UIView+MAToolkit.m */,
-			);
-			name = UI;
-			path = ui;
-			sourceTree = "<group>";
-		};
-		BFEAE1B316DF722300530197 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				BFEAE1B416DF722300530197 /* UI */,
-			);
-			name = Categories;
-			path = categories;
-			sourceTree = "<group>";
-		};
-		BFEAE1B416DF722300530197 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				BFEAE1B616DF727000530197 /* MAToolkitUIViewAdditionsTests.h */,
-				BFEAE1B716DF727000530197 /* MAToolkitUIViewAdditionsTests.m */,
-			);
-			name = UI;
-			path = ui;
-			sourceTree = "<group>";
-		};
 		BFEAE1BD16DF99B300530197 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,7 +125,7 @@
 				BFEAE1BF16DF99B300530197 /* Default.png */,
 				BFEAE1C016DF99B300530197 /* Default@2x.png */,
 				BFEAE1C116DF99B300530197 /* InfoPlist.strings */,
-				BFEAE1C316DF99B300530197 /* MAToolkit-Info.plist */,
+				BFEAE1C316DF99B300530197 /* MALazykit-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -200,17 +136,74 @@
 				BFEAE1CA16DF99BC00530197 /* MAAppDelegate.h */,
 				BFEAE1CB16DF99BC00530197 /* MAAppDelegate.m */,
 				BFEAE1CC16DF99BC00530197 /* main.m */,
-				BFEAE1CD16DF99BC00530197 /* MAToolkit-Prefix.pch */,
+				BFEAE1CD16DF99BC00530197 /* MALazykit-Prefix.pch */,
 			);
 			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		BFFE70C116DFA28800ADD1D9 /* MALazykit */ = {
+			isa = PBXGroup;
+			children = (
+				BFFE70C616DFA28800ADD1D9 /* MALazykit.h */,
+				BFFE70C216DFA28800ADD1D9 /* Categories */,
+			);
+			path = MALazykit;
+			sourceTree = "<group>";
+		};
+		BFFE70C216DFA28800ADD1D9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BFFE70C316DFA28800ADD1D9 /* UI */,
+			);
+			name = Categories;
+			path = categories;
+			sourceTree = "<group>";
+		};
+		BFFE70C316DFA28800ADD1D9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BFFE70C416DFA28800ADD1D9 /* UIView+MALazykit.h */,
+				BFFE70C516DFA28800ADD1D9 /* UIView+MALazykit.m */,
+			);
+			name = UI;
+			path = ui;
+			sourceTree = "<group>";
+		};
+		BFFE70C716DFA28800ADD1D9 /* MALazykitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFE70C816DFA28800ADD1D9 /* Categories */,
+				BFFE70CC16DFA28800ADD1D9 /* InfoPlist.strings */,
+				BFFE70CE16DFA28800ADD1D9 /* MALazykitTests-Info.plist */,
+			);
+			path = MALazykitTests;
+			sourceTree = "<group>";
+		};
+		BFFE70C816DFA28800ADD1D9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BFFE70C916DFA28800ADD1D9 /* UI */,
+			);
+			name = Categories;
+			path = categories;
+			sourceTree = "<group>";
+		};
+		BFFE70C916DFA28800ADD1D9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BFFE70CA16DFA28800ADD1D9 /* MALazykitUIViewAdditionsTests.h */,
+				BFFE70CB16DFA28800ADD1D9 /* MALazykitUIViewAdditionsTests.m */,
+			);
+			name = UI;
+			path = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFEAE17816DF71CD00530197 /* MAToolkit */ = {
+		BFEAE17816DF71CD00530197 /* MALazykit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFEAE1AB16DF71CD00530197 /* Build configuration list for PBXNativeTarget "MAToolkit" */;
+			buildConfigurationList = BFEAE1AB16DF71CD00530197 /* Build configuration list for PBXNativeTarget "MALazykit" */;
 			buildPhases = (
 				BFEAE17516DF71CD00530197 /* Sources */,
 				BFEAE17616DF71CD00530197 /* Frameworks */,
@@ -220,14 +213,14 @@
 			);
 			dependencies = (
 			);
-			name = MAToolkit;
+			name = MALazykit;
 			productName = MAToolkit;
-			productReference = BFEAE17916DF71CD00530197 /* MAToolkit.app */;
+			productReference = BFEAE17916DF71CD00530197 /* MALazykit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFEAE19816DF71CD00530197 /* MAToolkitTests */ = {
+		BFEAE19816DF71CD00530197 /* MALazykitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFEAE1AE16DF71CD00530197 /* Build configuration list for PBXNativeTarget "MAToolkitTests" */;
+			buildConfigurationList = BFEAE1AE16DF71CD00530197 /* Build configuration list for PBXNativeTarget "MALazykitTests" */;
 			buildPhases = (
 				BFEAE19416DF71CD00530197 /* Sources */,
 				BFEAE19516DF71CD00530197 /* Frameworks */,
@@ -239,9 +232,9 @@
 			dependencies = (
 				BFEAE19F16DF71CD00530197 /* PBXTargetDependency */,
 			);
-			name = MAToolkitTests;
+			name = MALazykitTests;
 			productName = MAToolkitTests;
-			productReference = BFEAE19916DF71CD00530197 /* MAToolkitTests.octest */;
+			productReference = BFEAE19916DF71CD00530197 /* MALazykitTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +247,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Marlon Andrade";
 			};
-			buildConfigurationList = BFEAE17416DF71CD00530197 /* Build configuration list for PBXProject "MAToolkit" */;
+			buildConfigurationList = BFEAE17416DF71CD00530197 /* Build configuration list for PBXProject "MALazykit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -266,8 +259,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFEAE17816DF71CD00530197 /* MAToolkit */,
-				BFEAE19816DF71CD00530197 /* MAToolkitTests */,
+				BFEAE17816DF71CD00530197 /* MALazykit */,
+				BFEAE19816DF71CD00530197 /* MALazykitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +274,8 @@
 				BFEAE1C516DF99B300530197 /* Default.png in Resources */,
 				BFEAE1C616DF99B300530197 /* Default@2x.png in Resources */,
 				BFEAE1C716DF99B300530197 /* InfoPlist.strings in Resources */,
+				BFFE70D116DFA28800ADD1D9 /* InfoPlist.strings in Resources */,
+				BFFE70D216DFA28800ADD1D9 /* MALazykitTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFEAE1A516DF71CD00530197 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,9 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFEAE1BB16DF72B500530197 /* UIView+MAToolkit.m in Sources */,
 				BFEAE1CE16DF99BC00530197 /* MAAppDelegate.m in Sources */,
 				BFEAE1CF16DF99BC00530197 /* main.m in Sources */,
+				BFFE70CF16DFA28800ADD1D9 /* UIView+MALazykit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFEAE1B816DF727000530197 /* MAToolkitUIViewAdditionsTests.m in Sources */,
+				BFFE70D316DFA34700ADD1D9 /* MALazykitUIViewAdditionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,24 +328,24 @@
 /* Begin PBXTargetDependency section */
 		BFEAE19F16DF71CD00530197 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFEAE17816DF71CD00530197 /* MAToolkit */;
+			target = BFEAE17816DF71CD00530197 /* MALazykit */;
 			targetProxy = BFEAE19E16DF71CD00530197 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BFEAE1A316DF71CD00530197 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFEAE1A416DF71CD00530197 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		BFEAE1C116DF99B300530197 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BFEAE1C216DF99B300530197 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFFE70CC16DFA28800ADD1D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFFE70CD16DFA28800ADD1D9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -419,9 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Other Sources/MAToolkit-Prefix.pch";
-				INFOPLIST_FILE = "Resources/MAToolkit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Other Sources/MALazykit-Prefix.pch";
+				INFOPLIST_FILE = "Resources/MALazykit-Info.plist";
+				PRODUCT_NAME = MALazykit;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -430,9 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Other Sources/MAToolkit-Prefix.pch";
-				INFOPLIST_FILE = "Resources/MAToolkit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Other Sources/MALazykit-Prefix.pch";
+				INFOPLIST_FILE = "Resources/MALazykit-Info.plist";
+				PRODUCT_NAME = MALazykit;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -440,15 +434,15 @@
 		BFEAE1AF16DF71CD00530197 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MAToolkit.app/MAToolkit";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MALazykit.app/MALazykit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Other Sources/MAToolkit-Prefix.pch";
-				INFOPLIST_FILE = "MAToolkitTests/MAToolkitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Other Sources/MALazykit-Prefix.pch";
+				INFOPLIST_FILE = "MALazykitTests/MALazykitTests-Info.plist";
+				PRODUCT_NAME = MALazykitTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -457,15 +451,15 @@
 		BFEAE1B016DF71CD00530197 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MAToolkit.app/MAToolkit";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MALazykit.app/MALazykit";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Other Sources/MAToolkit-Prefix.pch";
-				INFOPLIST_FILE = "MAToolkitTests/MAToolkitTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Other Sources/MALazykit-Prefix.pch";
+				INFOPLIST_FILE = "MALazykitTests/MALazykitTests-Info.plist";
+				PRODUCT_NAME = MALazykitTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -474,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFEAE17416DF71CD00530197 /* Build configuration list for PBXProject "MAToolkit" */ = {
+		BFEAE17416DF71CD00530197 /* Build configuration list for PBXProject "MALazykit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFEAE1A916DF71CD00530197 /* Debug */,
@@ -483,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFEAE1AB16DF71CD00530197 /* Build configuration list for PBXNativeTarget "MAToolkit" */ = {
+		BFEAE1AB16DF71CD00530197 /* Build configuration list for PBXNativeTarget "MALazykit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFEAE1AC16DF71CD00530197 /* Debug */,
@@ -492,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFEAE1AE16DF71CD00530197 /* Build configuration list for PBXNativeTarget "MAToolkitTests" */ = {
+		BFEAE1AE16DF71CD00530197 /* Build configuration list for PBXNativeTarget "MALazykitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFEAE1AF16DF71CD00530197 /* Debug */,
