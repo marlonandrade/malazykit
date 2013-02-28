@@ -1,9 +1,9 @@
 MAToolkit
 =========
 
-Collection of extensions for easier object instantiation. 
+Collection of extensions for easier object instantiation.
 
-After adoption of ARC I tend to prefer using `[MyObject object]` than `[[MyObject alloc] init]`. 
+After adoption of ARC I tend to prefer using `[MyObject object]` than `[[MyObject alloc] init]`.  
 So it's main purpose is to make your ARC code less verbose. 
 
 ## Usage
@@ -11,7 +11,7 @@ So it's main purpose is to make your ARC code less verbose.
 Import the main header file on your header prefix (.pch)
 
 ``` objective-c
-  #import "MAToolkit.h"
+#import "MAToolkit.h"
 ```
 
 ## Credits
