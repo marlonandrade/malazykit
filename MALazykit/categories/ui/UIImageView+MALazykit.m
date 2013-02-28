@@ -15,7 +15,7 @@
 }
 
 + (instancetype)imageViewWithImageNamed:(NSString *)imageName {
-    return [UIImageView imageViewWithImageNamed:[UIImage imageNamed:imageName]];
+    return [UIImageView imageViewWithImage:[UIImage imageNamed:imageName]];
 }
 
 @end
