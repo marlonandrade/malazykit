@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Marlon Andrade. All rights reserved.
 //
 
+#import "UIActivityIndicatorView+MALazykit.h"
 #import "UIBarButtonItem+MALazykit.h"
 #import "UIImageView+MALazykit.h"
 #import "UILabel+MALazykit.h"
