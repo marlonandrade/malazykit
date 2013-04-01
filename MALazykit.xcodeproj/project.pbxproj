@@ -15,6 +15,7 @@
 		BFA7403716DFCED600C09C39 /* UISegmentedControl+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7403616DFCED600C09C39 /* UISegmentedControl+MALazykit.m */; };
 		BFA7403A16DFCF1100C09C39 /* UISwipeGestureRecognizer+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7403916DFCF1000C09C39 /* UISwipeGestureRecognizer+MALazykit.m */; };
 		BFA7403D16DFCF7E00C09C39 /* UITableViewCell+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7403C16DFCF7D00C09C39 /* UITableViewCell+MALazykit.m */; };
+		BFE6E3FC170A4D4400F2A741 /* UITableView+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE6E3FB170A4D4400F2A741 /* UITableView+MALazykit.m */; };
 		BFEAE17D16DF71CD00530197 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEAE17C16DF71CD00530197 /* UIKit.framework */; };
 		BFEAE17F16DF71CD00530197 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEAE17E16DF71CD00530197 /* Foundation.framework */; };
 		BFEAE18116DF71CD00530197 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEAE18016DF71CD00530197 /* CoreGraphics.framework */; };
@@ -61,6 +62,8 @@
 		BFA7403916DFCF1000C09C39 /* UISwipeGestureRecognizer+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwipeGestureRecognizer+MALazykit.m"; sourceTree = "<group>"; };
 		BFA7403B16DFCF7D00C09C39 /* UITableViewCell+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+MALazykit.h"; sourceTree = "<group>"; };
 		BFA7403C16DFCF7D00C09C39 /* UITableViewCell+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+MALazykit.m"; sourceTree = "<group>"; };
+		BFE6E3FA170A4D4400F2A741 /* UITableView+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+MALazykit.h"; sourceTree = "<group>"; };
+		BFE6E3FB170A4D4400F2A741 /* UITableView+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+MALazykit.m"; sourceTree = "<group>"; };
 		BFEAE17916DF71CD00530197 /* MALazykit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MALazykit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEAE17C16DF71CD00530197 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFEAE17E16DF71CD00530197 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -200,6 +203,8 @@
 				BFA7403616DFCED600C09C39 /* UISegmentedControl+MALazykit.m */,
 				BFA7403816DFCF1000C09C39 /* UISwipeGestureRecognizer+MALazykit.h */,
 				BFA7403916DFCF1000C09C39 /* UISwipeGestureRecognizer+MALazykit.m */,
+				BFE6E3FA170A4D4400F2A741 /* UITableView+MALazykit.h */,
+				BFE6E3FB170A4D4400F2A741 /* UITableView+MALazykit.m */,
 				BFA7403B16DFCF7D00C09C39 /* UITableViewCell+MALazykit.h */,
 				BFA7403C16DFCF7D00C09C39 /* UITableViewCell+MALazykit.m */,
 				BFFE70C416DFA28800ADD1D9 /* UIView+MALazykit.h */,
@@ -360,6 +365,7 @@
 				BFA7403716DFCED600C09C39 /* UISegmentedControl+MALazykit.m in Sources */,
 				BFA7403A16DFCF1100C09C39 /* UISwipeGestureRecognizer+MALazykit.m in Sources */,
 				BFA7403D16DFCF7E00C09C39 /* UITableViewCell+MALazykit.m in Sources */,
+				BFE6E3FC170A4D4400F2A741 /* UITableView+MALazykit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
