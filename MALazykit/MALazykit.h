@@ -17,3 +17,4 @@
 #import "UITableViewCell+MALazykit.h"
 #import "UITableView+MALazykit.h"
 #import "UIView+MALazykit.h"
+#import "UIViewController+MALazykit.h"
