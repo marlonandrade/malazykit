@@ -14,6 +14,7 @@
 #import "UIPopoverController+MALazykit.h"
 #import "UISegmentedControl+MALazykit.h"
 #import "UISwipeGestureRecognizer+MALazykit.h"
+#import "UITabBarController+MALazykit.h"
 #import "UITableViewCell+MALazykit.h"
 #import "UITableView+MALazykit.h"
 #import "UIView+MALazykit.h"

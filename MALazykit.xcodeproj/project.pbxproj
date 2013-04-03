@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1FF8CA170C6EA900832084 /* UITabBarController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */; };
 		BF41EA15170A6310006540E7 /* UIViewController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41EA14170A6310006540E7 /* UIViewController+MALazykit.m */; };
 		BF96436C16EF537B00071385 /* UIView+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96436B16EF537B00071385 /* UIView+MALazykit.m */; };
 		BFA7402216DFC7D600C09C39 /* UIBarButtonItem+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7402116DFC7D600C09C39 /* UIBarButtonItem+MALazykit.m */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF1FF8C8170C6EA900832084 /* UITabBarController+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MALazykit.h"; sourceTree = "<group>"; };
+		BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MALazykit.m"; sourceTree = "<group>"; };
 		BF41EA13170A6310006540E7 /* UIViewController+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MALazykit.h"; sourceTree = "<group>"; };
 		BF41EA14170A6310006540E7 /* UIViewController+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MALazykit.m"; sourceTree = "<group>"; };
 		BF96436A16EF537B00071385 /* UIView+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MALazykit.h"; sourceTree = "<group>"; };
@@ -214,6 +217,8 @@
 				BFA7403616DFCED600C09C39 /* UISegmentedControl+MALazykit.m */,
 				BFA7403816DFCF1000C09C39 /* UISwipeGestureRecognizer+MALazykit.h */,
 				BFA7403916DFCF1000C09C39 /* UISwipeGestureRecognizer+MALazykit.m */,
+				BF1FF8C8170C6EA900832084 /* UITabBarController+MALazykit.h */,
+				BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */,
 				BFE6E3FA170A4D4400F2A741 /* UITableView+MALazykit.h */,
 				BFE6E3FB170A4D4400F2A741 /* UITableView+MALazykit.m */,
 				BFA7403B16DFCF7D00C09C39 /* UITableViewCell+MALazykit.h */,
@@ -382,6 +387,7 @@
 				BFE6E3FC170A4D4400F2A741 /* UITableView+MALazykit.m in Sources */,
 				BFF25CEF16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m in Sources */,
 				BF41EA15170A6310006540E7 /* UIViewController+MALazykit.m in Sources */,
+				BF1FF8CA170C6EA900832084 /* UITabBarController+MALazykit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
