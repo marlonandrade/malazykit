@@ -35,6 +35,7 @@
 		BFEAE1CF16DF99BC00530197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAE1CC16DF99BC00530197 /* main.m */; };
 		BFF25CEC16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF25CEB16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.m */; };
 		BFF25CEF16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */; };
+		BFF8A57A170DAF600099E4D0 /* UITabBarItem+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8A579170DAF600099E4D0 /* UITabBarItem+MALazykit.m */; };
 		BFFE70D116DFA28800ADD1D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFFE70CC16DFA28800ADD1D9 /* InfoPlist.strings */; };
 		BFFE70D216DFA28800ADD1D9 /* MALazykitTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFE70CE16DFA28800ADD1D9 /* MALazykitTests-Info.plist */; };
 		BFFE70D316DFA34700ADD1D9 /* UIViewLazinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE70CB16DFA28800ADD1D9 /* UIViewLazinessTests.m */; };
@@ -96,6 +97,8 @@
 		BFF25CEB16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityIndicatorViewLazinessTests.m; sourceTree = "<group>"; };
 		BFF25CED16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+MALazykit.h"; sourceTree = "<group>"; };
 		BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+MALazykit.m"; sourceTree = "<group>"; };
+		BFF8A578170DAF600099E4D0 /* UITabBarItem+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+MALazykit.h"; sourceTree = "<group>"; };
+		BFF8A579170DAF600099E4D0 /* UITabBarItem+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+MALazykit.m"; sourceTree = "<group>"; };
 		BFFE70C616DFA28800ADD1D9 /* MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALazykit.h; sourceTree = "<group>"; };
 		BFFE70CA16DFA28800ADD1D9 /* UIViewLazinessTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewLazinessTests.h; sourceTree = "<group>"; };
 		BFFE70CB16DFA28800ADD1D9 /* UIViewLazinessTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewLazinessTests.m; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 				BFA7403916DFCF1000C09C39 /* UISwipeGestureRecognizer+MALazykit.m */,
 				BF1FF8C8170C6EA900832084 /* UITabBarController+MALazykit.h */,
 				BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */,
+				BFF8A578170DAF600099E4D0 /* UITabBarItem+MALazykit.h */,
+				BFF8A579170DAF600099E4D0 /* UITabBarItem+MALazykit.m */,
 				BFE6E3FA170A4D4400F2A741 /* UITableView+MALazykit.h */,
 				BFE6E3FB170A4D4400F2A741 /* UITableView+MALazykit.m */,
 				BFA7403B16DFCF7D00C09C39 /* UITableViewCell+MALazykit.h */,
@@ -394,6 +399,7 @@
 				BF41EA15170A6310006540E7 /* UIViewController+MALazykit.m in Sources */,
 				BF1FF8CA170C6EA900832084 /* UITabBarController+MALazykit.m in Sources */,
 				BF41EA9F170D0B78006540E7 /* UITableViewController+MALazykit.m in Sources */,
+				BFF8A57A170DAF600099E4D0 /* UITabBarItem+MALazykit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
