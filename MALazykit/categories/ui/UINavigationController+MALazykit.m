@@ -14,4 +14,8 @@
     return [[self alloc] initWithRootViewController:rootViewController];
 }
 
++ (instancetype)navigationControllerWithNavigationBarClass:(Class)navigationBarClass toolbarClass:(Class)toolbarClass {
+    return [[self alloc] initWithNavigationBarClass:navigationBarClass toolbarClass:toolbarClass];
+}
+
 @end

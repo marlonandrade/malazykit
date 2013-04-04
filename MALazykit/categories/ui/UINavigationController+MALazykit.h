@@ -11,5 +11,6 @@
 @interface UINavigationController (MALazykit)
 
 + (instancetype)navigationControllerWithRootViewController:(UIViewController *)rootViewController;
++ (instancetype)navigationControllerWithNavigationBarClass:(Class)navigationBarClass toolbarClass:(Class)toolbarClass;
 
 @end
