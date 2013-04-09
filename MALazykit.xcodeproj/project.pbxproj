@@ -33,6 +33,7 @@
 		BFEAE1C716DF99B300530197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFEAE1C116DF99B300530197 /* InfoPlist.strings */; };
 		BFEAE1CE16DF99BC00530197 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAE1CB16DF99BC00530197 /* MAAppDelegate.m */; };
 		BFEAE1CF16DF99BC00530197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEAE1CC16DF99BC00530197 /* main.m */; };
+		BFED78AE171447A800745594 /* UIGestureRecognizer+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFED78AD171447A800745594 /* UIGestureRecognizer+MALazykit.m */; };
 		BFF25CEC16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF25CEB16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.m */; };
 		BFF25CEF16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */; };
 		BFF8A57A170DAF600099E4D0 /* UITabBarItem+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8A579170DAF600099E4D0 /* UITabBarItem+MALazykit.m */; };
@@ -93,6 +94,8 @@
 		BFEAE1CB16DF99BC00530197 /* MAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
 		BFEAE1CC16DF99BC00530197 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFEAE1CD16DF99BC00530197 /* MALazykit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MALazykit-Prefix.pch"; sourceTree = "<group>"; };
+		BFED78AC171447A800745594 /* UIGestureRecognizer+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+MALazykit.h"; sourceTree = "<group>"; };
+		BFED78AD171447A800745594 /* UIGestureRecognizer+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+MALazykit.m"; sourceTree = "<group>"; };
 		BFF25CEA16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIActivityIndicatorViewLazinessTests.h; sourceTree = "<group>"; };
 		BFF25CEB16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIActivityIndicatorViewLazinessTests.m; sourceTree = "<group>"; };
 		BFF25CED16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+MALazykit.h"; sourceTree = "<group>"; };
@@ -211,6 +214,8 @@
 				BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */,
 				BFA7402016DFC7D600C09C39 /* UIBarButtonItem+MALazykit.h */,
 				BFA7402116DFC7D600C09C39 /* UIBarButtonItem+MALazykit.m */,
+				BFED78AC171447A800745594 /* UIGestureRecognizer+MALazykit.h */,
+				BFED78AD171447A800745594 /* UIGestureRecognizer+MALazykit.m */,
 				BFA7402C16DFCDDD00C09C39 /* UIImageView+MALazykit.h */,
 				BFA7402D16DFCDDD00C09C39 /* UIImageView+MALazykit.m */,
 				BFA7402916DFCD8400C09C39 /* UILabel+MALazykit.h */,
@@ -400,6 +405,7 @@
 				BF1FF8CA170C6EA900832084 /* UITabBarController+MALazykit.m in Sources */,
 				BF41EA9F170D0B78006540E7 /* UITableViewController+MALazykit.m in Sources */,
 				BFF8A57A170DAF600099E4D0 /* UITabBarItem+MALazykit.m in Sources */,
+				BFED78AE171447A800745594 /* UIGestureRecognizer+MALazykit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

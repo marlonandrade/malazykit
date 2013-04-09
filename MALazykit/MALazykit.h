@@ -8,6 +8,7 @@
 
 #import "UIActivityIndicatorView+MALazykit.h"
 #import "UIBarButtonItem+MALazykit.h"
+#import "UIGestureRecognizer+MALazykit.h"
 #import "UIImageView+MALazykit.h"
 #import "UILabel+MALazykit.h"
 #import "UINavigationController+MALazykit.h"
