@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C38317D17296F0800BF2611 /* UIWindow+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C38317C17296F0800BF2611 /* UIWindow+MALazykit.m */; };
 		BF1FF8CA170C6EA900832084 /* UITabBarController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */; };
 		BF41EA15170A6310006540E7 /* UIViewController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41EA14170A6310006540E7 /* UIViewController+MALazykit.m */; };
 		BF41EA9F170D0B78006540E7 /* UITableViewController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41EA9E170D0B78006540E7 /* UITableViewController+MALazykit.m */; };
@@ -53,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C38317B17296F0800BF2611 /* UIWindow+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MALazykit.h"; sourceTree = "<group>"; };
+		5C38317C17296F0800BF2611 /* UIWindow+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MALazykit.m"; sourceTree = "<group>"; };
 		BF1FF8C8170C6EA900832084 /* UITabBarController+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MALazykit.h"; sourceTree = "<group>"; };
 		BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MALazykit.m"; sourceTree = "<group>"; };
 		BF41EA13170A6310006540E7 /* UIViewController+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MALazykit.h"; sourceTree = "<group>"; };
@@ -242,6 +245,8 @@
 				BF41EA14170A6310006540E7 /* UIViewController+MALazykit.m */,
 				BF41EA9D170D0B78006540E7 /* UITableViewController+MALazykit.h */,
 				BF41EA9E170D0B78006540E7 /* UITableViewController+MALazykit.m */,
+				5C38317B17296F0800BF2611 /* UIWindow+MALazykit.h */,
+				5C38317C17296F0800BF2611 /* UIWindow+MALazykit.m */,
 			);
 			name = UI;
 			path = ui;
@@ -406,6 +411,7 @@
 				BF41EA9F170D0B78006540E7 /* UITableViewController+MALazykit.m in Sources */,
 				BFF8A57A170DAF600099E4D0 /* UITabBarItem+MALazykit.m in Sources */,
 				BFED78AE171447A800745594 /* UIGestureRecognizer+MALazykit.m in Sources */,
+				5C38317D17296F0800BF2611 /* UIWindow+MALazykit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

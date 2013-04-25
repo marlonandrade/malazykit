@@ -22,3 +22,4 @@
 #import "UITableViewController+MALazykit.h"
 #import "UIView+MALazykit.h"
 #import "UIViewController+MALazykit.h"
+#import "UIWindow+MALazykit.h"
