@@ -11,7 +11,7 @@
 @implementation UILabel (MALazykit)
 
 + (instancetype)label {
-    return [self labelWithFrame:CGRectZero];
+    return [[self alloc] init];
 }
 
 + (instancetype)labelWithFrame:(CGRect)frame {
