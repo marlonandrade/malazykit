@@ -62,6 +62,8 @@
 		BF41EA14170A6310006540E7 /* UIViewController+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MALazykit.m"; sourceTree = "<group>"; };
 		BF41EA9D170D0B78006540E7 /* UITableViewController+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+MALazykit.h"; sourceTree = "<group>"; };
 		BF41EA9E170D0B78006540E7 /* UITableViewController+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+MALazykit.m"; sourceTree = "<group>"; };
+		BF7306BB1767C3C30051B729 /* UIActionSheet+MALazykit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+MALazykit.h"; sourceTree = "<group>"; };
+		BF7306BC1767C3C30051B729 /* UIActionSheet+MALazykit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+MALazykit.m"; sourceTree = "<group>"; };
 		BF96436A16EF537B00071385 /* UIView+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MALazykit.h"; sourceTree = "<group>"; };
 		BF96436B16EF537B00071385 /* UIView+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MALazykit.m"; sourceTree = "<group>"; };
 		BFA7402016DFC7D600C09C39 /* UIBarButtonItem+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MALazykit.h"; sourceTree = "<group>"; };
@@ -213,6 +215,8 @@
 		BFFE70C316DFA28800ADD1D9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BF7306BB1767C3C30051B729 /* UIActionSheet+MALazykit.h */,
+				BF7306BC1767C3C30051B729 /* UIActionSheet+MALazykit.m */,
 				BFF25CED16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.h */,
 				BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */,
 				BFA7402016DFC7D600C09C39 /* UIBarButtonItem+MALazykit.h */,
