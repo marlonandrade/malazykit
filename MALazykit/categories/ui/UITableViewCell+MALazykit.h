@@ -10,6 +10,7 @@
 
 @interface UITableViewCell (MALazykit)
 
++ (instancetype)cellWithReuseIdentifier:(NSString *)reuseIdentifier;
 + (instancetype)cellWithStyle:(UITableViewCellStyle)cellStyle
               reuseIdentifier:(NSString *)reuseIdentifier;
 

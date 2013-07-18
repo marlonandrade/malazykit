@@ -10,6 +10,10 @@
 
 @implementation UITableViewCell (MALazykit)
 
++ (instancetype)cellWithReuseIdentifier:(NSString *)reuseIdentifier {
+    return [self cellWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
+}
+
 + (instancetype)cellWithStyle:(UITableViewCellStyle)cellStyle
               reuseIdentifier:(NSString *)reuseIdentifier {
     return [[self alloc] initWithStyle:cellStyle
