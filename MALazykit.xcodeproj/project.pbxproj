@@ -38,6 +38,7 @@
 		BFF25CEC16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF25CEB16EF51410089C72B /* UIActivityIndicatorViewLazinessTests.m */; };
 		BFF25CEF16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */; };
 		BFF8A57A170DAF600099E4D0 /* UITabBarItem+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8A579170DAF600099E4D0 /* UITabBarItem+MALazykit.m */; };
+		BFFB0A1417CBC5A30094A611 /* UICollectionView+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFB0A1317CBC5A30094A611 /* UICollectionView+MALazykit.m */; };
 		BFFE70D116DFA28800ADD1D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFFE70CC16DFA28800ADD1D9 /* InfoPlist.strings */; };
 		BFFE70D216DFA28800ADD1D9 /* MALazykitTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFE70CE16DFA28800ADD1D9 /* MALazykitTests-Info.plist */; };
 		BFFE70D316DFA34700ADD1D9 /* UIViewLazinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE70CB16DFA28800ADD1D9 /* UIViewLazinessTests.m */; };
@@ -105,6 +106,8 @@
 		BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+MALazykit.m"; sourceTree = "<group>"; };
 		BFF8A578170DAF600099E4D0 /* UITabBarItem+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+MALazykit.h"; sourceTree = "<group>"; };
 		BFF8A579170DAF600099E4D0 /* UITabBarItem+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+MALazykit.m"; sourceTree = "<group>"; };
+		BFFB0A1217CBC5A30094A611 /* UICollectionView+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+MALazykit.h"; sourceTree = "<group>"; };
+		BFFB0A1317CBC5A30094A611 /* UICollectionView+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+MALazykit.m"; sourceTree = "<group>"; };
 		BFFE70C616DFA28800ADD1D9 /* MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALazykit.h; sourceTree = "<group>"; };
 		BFFE70CA16DFA28800ADD1D9 /* UIViewLazinessTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewLazinessTests.h; sourceTree = "<group>"; };
 		BFFE70CB16DFA28800ADD1D9 /* UIViewLazinessTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewLazinessTests.m; sourceTree = "<group>"; };
@@ -217,6 +220,8 @@
 				BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */,
 				BFA7402016DFC7D600C09C39 /* UIBarButtonItem+MALazykit.h */,
 				BFA7402116DFC7D600C09C39 /* UIBarButtonItem+MALazykit.m */,
+				BFFB0A1217CBC5A30094A611 /* UICollectionView+MALazykit.h */,
+				BFFB0A1317CBC5A30094A611 /* UICollectionView+MALazykit.m */,
 				BFED78AC171447A800745594 /* UIGestureRecognizer+MALazykit.h */,
 				BFED78AD171447A800745594 /* UIGestureRecognizer+MALazykit.m */,
 				BFA7402C16DFCDDD00C09C39 /* UIImageView+MALazykit.h */,
@@ -412,6 +417,7 @@
 				BFF8A57A170DAF600099E4D0 /* UITabBarItem+MALazykit.m in Sources */,
 				BFED78AE171447A800745594 /* UIGestureRecognizer+MALazykit.m in Sources */,
 				5C38317D17296F0800BF2611 /* UIWindow+MALazykit.m in Sources */,
+				BFFB0A1417CBC5A30094A611 /* UICollectionView+MALazykit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
