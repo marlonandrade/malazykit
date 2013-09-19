@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C38317D17296F0800BF2611 /* UIWindow+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C38317C17296F0800BF2611 /* UIWindow+MALazykit.m */; };
 		5C40302B17EB4FAF000EF265 /* UIColor+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C40302A17EB4FAF000EF265 /* UIColor+MALazykit.m */; };
+		5CFBBB1517EB684D00D12B09 /* UIButton+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFBBB1417EB684D00D12B09 /* UIButton+MALazykit.m */; };
 		BF1FF8CA170C6EA900832084 /* UITabBarController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */; };
 		BF41EA15170A6310006540E7 /* UIViewController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41EA14170A6310006540E7 /* UIViewController+MALazykit.m */; };
 		BF41EA9F170D0B78006540E7 /* UITableViewController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41EA9E170D0B78006540E7 /* UITableViewController+MALazykit.m */; };
@@ -61,6 +62,8 @@
 		5C38317C17296F0800BF2611 /* UIWindow+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MALazykit.m"; sourceTree = "<group>"; };
 		5C40302917EB4FAF000EF265 /* UIColor+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MALazykit.h"; sourceTree = "<group>"; };
 		5C40302A17EB4FAF000EF265 /* UIColor+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MALazykit.m"; sourceTree = "<group>"; };
+		5CFBBB1317EB684D00D12B09 /* UIButton+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MALazykit.h"; sourceTree = "<group>"; };
+		5CFBBB1417EB684D00D12B09 /* UIButton+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MALazykit.m"; sourceTree = "<group>"; };
 		BF1FF8C8170C6EA900832084 /* UITabBarController+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MALazykit.h"; sourceTree = "<group>"; };
 		BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MALazykit.m"; sourceTree = "<group>"; };
 		BF41EA13170A6310006540E7 /* UIViewController+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MALazykit.h"; sourceTree = "<group>"; };
@@ -226,6 +229,8 @@
 				BFF25CEE16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m */,
 				BFA7402016DFC7D600C09C39 /* UIBarButtonItem+MALazykit.h */,
 				BFA7402116DFC7D600C09C39 /* UIBarButtonItem+MALazykit.m */,
+				5CFBBB1317EB684D00D12B09 /* UIButton+MALazykit.h */,
+				5CFBBB1417EB684D00D12B09 /* UIButton+MALazykit.m */,
 				BFFB0A1217CBC5A30094A611 /* UICollectionView+MALazykit.h */,
 				BFFB0A1317CBC5A30094A611 /* UICollectionView+MALazykit.m */,
 				BFFB0A1517CBC7460094A611 /* UICollectionViewLayout+MALazykit.h */,
@@ -430,6 +435,7 @@
 				BFFB0A1417CBC5A30094A611 /* UICollectionView+MALazykit.m in Sources */,
 				BFFB0A1717CBC7460094A611 /* UICollectionViewLayout+MALazykit.m in Sources */,
 				5C40302B17EB4FAF000EF265 /* UIColor+MALazykit.m in Sources */,
+				5CFBBB1517EB684D00D12B09 /* UIButton+MALazykit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
