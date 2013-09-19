@@ -16,7 +16,7 @@
     return instance;
 }
 
-+ (instancetype)buttonWithCustomTypeFrame:(CGRect)frame {
++ (instancetype)buttonWithCustomTypeAndFrame:(CGRect)frame {
     return [self buttonWithType:UIButtonTypeCustom frame:frame];
 }
 

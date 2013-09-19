@@ -11,6 +11,6 @@
 @interface UIButton (MALazykit)
 
 + (instancetype)buttonWithType:(UIButtonType)buttonType frame:(CGRect)frame;
-+ (instancetype)buttonWithCustomTypeFrame:(CGRect)frame;
++ (instancetype)buttonWithCustomTypeAndFrame:(CGRect)frame;
 
 @end
