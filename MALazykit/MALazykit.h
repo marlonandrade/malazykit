@@ -8,8 +8,10 @@
 
 #import "UIActivityIndicatorView+MALazykit.h"
 #import "UIBarButtonItem+MALazykit.h"
+#import "UIButton+MALazykit.h"
 #import "UICollectionView+MALazykit.h"
 #import "UICollectionViewLayout+MALazykit.h"
+#import "UIColor+MALazykit.h"
 #import "UIGestureRecognizer+MALazykit.h"
 #import "UIImageView+MALazykit.h"
 #import "UILabel+MALazykit.h"
