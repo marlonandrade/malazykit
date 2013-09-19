@@ -10,10 +10,14 @@
 
 @implementation UIButton (MALazykit)
 
-+ (instancetype)customButtonWithFrame:(CGRect)frame {
-    UIButton *instance = [self buttonWithType:UIButtonTypeCustom];
++ (instancetype)buttonWithType:(UIButtonType)buttonType frame:(CGRect)frame {
+    UIButton *instance = [self buttonWithType:buttonType];
     instance.frame = frame;
     return instance;
+}
+
++ (instancetype)buttonWithCustomTypeFrame:(CGRect)frame {
+    return [self buttonWithType:UIButtonTypeCustom frame:frame];
 }
 
 @end
