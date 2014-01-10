@@ -7,6 +7,7 @@
 //
 
 #import "UIActivityIndicatorView+MALazykit.h"
+#import "UIAlertView+MALazykit.h"
 #import "UIBarButtonItem+MALazykit.h"
 #import "UIButton+MALazykit.h"
 #import "UICollectionView+MALazykit.h"
