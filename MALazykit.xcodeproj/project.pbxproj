@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C38317D17296F0800BF2611 /* UIWindow+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C38317C17296F0800BF2611 /* UIWindow+MALazykit.m */; };
 		5C40302B17EB4FAF000EF265 /* UIColor+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C40302A17EB4FAF000EF265 /* UIColor+MALazykit.m */; };
+		5C8C40A4188065F8001053DF /* UIAlertView+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C246DFD18805A370067508C /* UIAlertView+MALazykit.m */; };
 		5CFBBB1517EB684D00D12B09 /* UIButton+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFBBB1417EB684D00D12B09 /* UIButton+MALazykit.m */; };
 		BF1FF8CA170C6EA900832084 /* UITabBarController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1FF8C9170C6EA900832084 /* UITabBarController+MALazykit.m */; };
 		BF41EA15170A6310006540E7 /* UIViewController+MALazykit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41EA14170A6310006540E7 /* UIViewController+MALazykit.m */; };
@@ -58,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C246DFC18805A370067508C /* UIAlertView+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MALazykit.h"; sourceTree = "<group>"; };
+		5C246DFD18805A370067508C /* UIAlertView+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MALazykit.m"; sourceTree = "<group>"; };
 		5C38317B17296F0800BF2611 /* UIWindow+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MALazykit.h"; sourceTree = "<group>"; };
 		5C38317C17296F0800BF2611 /* UIWindow+MALazykit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MALazykit.m"; sourceTree = "<group>"; };
 		5C40302917EB4FAF000EF265 /* UIColor+MALazykit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MALazykit.h"; sourceTree = "<group>"; };
@@ -267,6 +270,8 @@
 				5C38317C17296F0800BF2611 /* UIWindow+MALazykit.m */,
 				5C40302917EB4FAF000EF265 /* UIColor+MALazykit.h */,
 				5C40302A17EB4FAF000EF265 /* UIColor+MALazykit.m */,
+				5C246DFC18805A370067508C /* UIAlertView+MALazykit.h */,
+				5C246DFD18805A370067508C /* UIAlertView+MALazykit.m */,
 			);
 			name = UI;
 			path = ui;
@@ -424,6 +429,7 @@
 				BFA7403716DFCED600C09C39 /* UISegmentedControl+MALazykit.m in Sources */,
 				BFA7403A16DFCF1100C09C39 /* UISwipeGestureRecognizer+MALazykit.m in Sources */,
 				BFA7403D16DFCF7E00C09C39 /* UITableViewCell+MALazykit.m in Sources */,
+				5C8C40A4188065F8001053DF /* UIAlertView+MALazykit.m in Sources */,
 				BFE6E3FC170A4D4400F2A741 /* UITableView+MALazykit.m in Sources */,
 				BFF25CEF16EF51C10089C72B /* UIActivityIndicatorView+MALazykit.m in Sources */,
 				BF41EA15170A6310006540E7 /* UIViewController+MALazykit.m in Sources */,
